@@ -1,14 +1,10 @@
 # Rental Car
-A Web Application that for rental car company. The user can view the available cars, then pay for the access to the selected package, and finally pick up his car. The main reason for me to create this application was to learn Junit and Mockito testing.
+A Web Application that for rental car company. The client side is a single page app built with ReactJS and Bootstrap. The server side is built on Spring Boot using Java. The application uses MySQL database to store data. Security is provided by using JSON web tokens. The application uses Users, Rents, Sales and Cars as basic entities. Each user can register, login and logout. The application supports two user roles - User and Admin.
 
 # Tools
-Java 17
-Spring Boot v2.5.5
-Maven v3.8.2
-MySQL Community Server v8.0.27
-Spring Data JPA
-Spring Web MVC
-Spring Security with JWT
-Lombok
-JUnit 5
-Mockito
+- Front end
+  - ReactJS
+  - Bootstrap
+- Back end
+  - Spring boot with Java
+  - MySQL
